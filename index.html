@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="unison.js"></script>
+    
+</head>
+<body style="height:2000px; width:800px; border:1px solid black">
+    <div style="height: 400px;">ss</div>
+    <div class="container">
+        <div class="left-element">l</div>
+        <div class="right-element">r</div>
+    </div>
+</body>
+</html>
+<script>
+    $(document).ready(function() {
+        $('.container').mergeElements({
+            mergePoint: $('.container').width()*.5
+        });
+    });
+</script>
+
+
