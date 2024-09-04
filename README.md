@@ -10,8 +10,8 @@
 4. Create an element with a class name right-element that you want to merge in the middle. Place it inside the lement on #1.
 ```html
     <div class="container">
-        <div class="left-element">l</div>
-        <div class="right-element">r</div>
+        <div class="left-element"><img src="resources/images/groom.png" alt="" width="100" height="100"></div>
+        <div class="right-element"><img src="resources/images/bride.png" alt=""width="100" height="100"></div>
     </div>
 ```
 5. Call the plugin using the element with the class name on #1
