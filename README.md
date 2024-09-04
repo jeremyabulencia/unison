@@ -1,4 +1,5 @@
 # Setting Up
+## Plugin for making two elements from left and right, meet at the middle of the container
 ### make sure to import jQuery Library on <head>
 1. Create an elemnt for the two elements to merge
 2. Import unison.js Plugin on <head>
