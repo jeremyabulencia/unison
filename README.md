@@ -19,7 +19,7 @@
     <script>
         $(document).ready(function() {
             $('.container').mergeElements({
-                mergePoint: $('.container').width()*.5
+                mergePoint: $('.container').width()*.6355 // middle of the width of the container
             });
         });
     </script>
