@@ -10,8 +10,8 @@
 4. Create an element with a class name right-element that you want to merge in the middle. Place it inside the lement on #1.
 ```html
     <div class="container">
-        <div class="left-element">l</div>
-        <div class="right-element">r</div>
+        <div class="left-element"></div>
+        <div class="right-element"></div>
     </div>
 ```
 5. Call the plugin using the element with the class name on #1
@@ -19,7 +19,7 @@
     <script>
         $(document).ready(function() {
             $('.container').mergeElements({
-                mergePoint: $('.container').width()*.5
+                mergePoint: $('.container').width()*.6355 // middle of the with of the container
             });
         });
     </script>

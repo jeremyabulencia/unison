@@ -14,6 +14,9 @@
             var $rightPosition = 0;
             var $scrollTop = $(window).scrollTop();
 
+            $leftElement.append('<img src="resources/images/groom.png" alt="" width="100" height="100">');
+            $rightElement.append('<img src="resources/images/bride.png" alt=""width="100" height="100">');
+
             $containerElement.css({
                 "position":"fixed",
                 "margin":"auto",
